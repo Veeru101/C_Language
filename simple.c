@@ -1,5 +1,4 @@
 #include<stdio.h>
-
 int main()
 {
 
@@ -11,7 +10,6 @@ int main()
 }
 
 #include<stdio.h>
-
 int main()
 {
    int i=10;
@@ -20,9 +18,15 @@ int main()
 }
 
 #include<stdio.h>
-
 int main()
 {
    int i=10;
    printf("%d %d %d %d %d",++i,i,i++,++i,i);
+}
+
+#include<stdio.h>
+int main()
+{
+	int i=10;
+	printf("%b ",i);
 }
